@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.8 Python/3.14.7
+Date: Mon, 17 Aug 2026 12:29:39 GMT
+Content-Type: application/json
+Content-Length: 16
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'none'
+Cache-Control: no-store
+Access-Control-Allow-Origin: http://localhost:3000
+Connection: close
+
+{"estado":"ok"}

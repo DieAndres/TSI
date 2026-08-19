@@ -1,0 +1,39 @@
+HTTP/1.1 401 UNAUTHORIZED
+Server: Werkzeug/3.1.8 Python/3.14.7
+Date: Mon, 17 Aug 2026 12:43:07 GMT
+Content-Type: application/json
+Content-Length: 26
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'none'
+Cache-Control: no-store
+Access-Control-Allow-Origin: http://localhost:3000
+Connection: close
+
+{"error":"No autorizado"}
+HTTP/1.1 200 OK
+Server: Werkzeug/3.1.8 Python/3.14.7
+Date: Wed, 19 Aug 2026 11:18:15 GMT
+Content-Type: application/json
+Content-Length: 97
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'none'
+Cache-Control: no-store
+Access-Control-Allow-Origin: http://localhost:3000
+Connection: close
+
+{"usuarios":[{"id":1,"nombre":"Ana","rol":"analista"},{"id":2,"nombre":"Luis","rol":"auditor"}]}
+HTTP/1.1 400 BAD REQUEST
+Server: Werkzeug/3.1.8 Python/3.14.7
+Date: Wed, 19 Aug 2026 11:18:44 GMT
+Content-Type: application/json
+Content-Length: 79
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'none'
+Cache-Control: no-store
+Access-Control-Allow-Origin: http://localhost:3000
+Connection: close
+
+{"error":"Parametro rol invalido","valores_permitidos":["analista","auditor"]}
