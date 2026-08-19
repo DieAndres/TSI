@@ -1,4 +1,0 @@
-interface:
-  display_name: "Tutor universitario"
-  short_description: "Guía académica sin resolver tareas por defecto"
-  default_prompt: "Usa $tutor-universitario para guiarme paso a paso en esta actividad sin resolverla por mí."
